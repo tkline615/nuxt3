@@ -8,6 +8,10 @@
 <script setup>
     // this name must match the [id] value
     const { id } = useRoute().params
+
+    definePageMeta({
+        layout: 'products'
+    })
 </script>
 
 <style scoped>
